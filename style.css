@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff0f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #ffe4e1;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.title {
+    color: #ff69b4;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form input[type="text"], form input[type="url"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ff69b4;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #ff1493;
+}
+
+.bookmark-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.bookmark-list li {
+    background-color: #fff;
+    border: 1px solid #ff69b4;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.bookmark-list li a {
+    text-decoration: none;
+    color: #ff69b4;
+    font-size: 1.1em;
+    margin-right: 10px;
+}
