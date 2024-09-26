@@ -1,10 +1,11 @@
 <?php
-// MySQLデータベースへの接続
-$servername = "localhost";
-$username = "root";  // 自分のDBユーザー名
-$password = "";      // 自分のDBパスワード
-$dbname = "bookmark_app";
 
+$servername = "mysql3101.db.sakura.ne.jp";
+$username = "fabulousjapanese";  // phpMyAdminで使っているユーザー名
+$password = "";  // phpMyAdminで設定したパスワード
+$dbname = "fabulousjapanese_gs_kadai07";
+
+// データベース接続を作成
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // 接続エラー確認
